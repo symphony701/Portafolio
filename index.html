@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="principal-container">
+      <!--Hero-->
+      <div class="hero min-w-full">
+        <div class="navbar" id="navbar">
+          <div></div>
+
+          <ul class="flex opciones" id="opciones">
+            <li class="opcion">
+              <a href="#mid-hero">Inicio</a>
+            </li>
+            <li class="opcion">
+              <a href="#about">Sobre mí</a>
+            </li>
+            <li class="opcion">
+              <a href="#proyectos">Proyectos</a>
+            </li>
+            <li class="opcion">
+              <a href="#contact">Contacto</a>
+            </li>
+          </ul>
+          <div class="dropbutton">
+            <img src="https://img.icons8.com/ios/50/000000/sort-down.png" />
+          </div>
+        </div>
+        <div class="mid-hero" id="mid-hero">
+          <div class="datos">
+            <h1 id="simpleUsage"></h1>
+            <h3>Software Developer</h3>
+          </div>
+          <img src="./assets/hero-img.png" alt="Image-hero" />
+        </div>
+      </div>
+      <!--sobre mi mero-->
+      <div class="about" id="about">
+        <div class="image">
+          <img src="./assets/seb.png" alt="Sebastian Roque" />
+          <h3 id="animateMe">Sebastian Roque Neciosup</h3>
+        </div>
+        <div class="biografia">
+          <p>
+            Soy estudiante de 6to semestre en la carrera de Ingeniería de
+            Software en la Universidad Peruana de Ciencias Aplicadas. Apasionado
+            por la programación, la tecnología y el aprendizaje autodidacta, del
+            cual obtuve la mayoria de mis conocimientos actuales. Siempre estoy
+            dispuesto a aprender algo nuevo y trabajar tanto individualmente
+            como en equipo.
+          </p>
+        </div>
+      </div>
+      <div class="conocimientos">
+        <h2>Tecnologías</h2>
+        <div class="tecnologias">
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/html-5.png"
+            />
+            <p>HTML5</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/css3.png"
+              alt="CSS3"
+            />
+            <p>CSS3</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/javascript.png"
+              alt="Javascript"
+            />
+            <p>Javascript</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/typescript.png"
+              alt="Typescript"
+            />
+            <p>Typescript</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/windows/100/000000/vuejs.png"
+              alt="Vue"
+            />
+            <p>Vue</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/windows/96/000000/npm.png"
+              alt="NPM"
+            />
+            <p>NPM</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/windows/96/000000/node-js.png"
+              alt="Node JS"
+            />
+            <p>Node JS</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/mysql-logo.png"
+              alt="MySQL"
+            />
+            <p>MySQL</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/flutter.png"
+              alt="Flutter"
+            />
+            <p>Flutter</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/git.png"
+              alt="Git"
+            />
+            <p>Git</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/windows/96/000000/github.png"
+              alt="Github"
+            />
+            <p>Github</p>
+          </div>
+          <div class="tec">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/python.png"
+              alt="Python"
+            />
+            <p>Python</p>
+          </div>
+        </div>
+      </div>
+      <div class="proyectos" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="cards-proyectos">
+          <div class="card">
+            <a href="https://matrifast.netlify.app" target="_blank">
+              <img src="./assets/matrifast.png" alt="Matrifast" />
+            </a>
+            <div class="info-card">
+              <h5>MatriFast</h5>
+              <p>
+                Sistema de matrículas en las cuales los alumnos solicitan la
+                inscripción a alguna materia y los administradores gestionan de
+                estas.
+              </p>
+              <p>Tecnologías usadas:</p>
+              <p>Vue, Express, MySQL, Heroku</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://facturaxpresss.netlify.app" target="_blank">
+              <img src="./assets/facturaxpress.png" alt="FacturaXpress" />
+            </a>
+            <div class="info-card">
+              <h5>FacturaXpress</h5>
+              <p>
+                Sistema de cálculo de descuento de facturas segun tasas de
+                alguna entidad bancaria.
+              </p>
+              <p>Tecnologías usadas:</p>
+              <p>Vue, NestJS, TypeScript, MySQL, Heroku</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <h2>Contacto</h2>
+        <div class="redes">
+          <div>
+            <a href="https://wa.me/51948457249" target="_blank">
+              <img src="https://img.icons8.com/ios-glyphs/60/000000/whatsapp.png"/>
+            </a>
+            <p>WhatsApp</p>
+          </div>
+          <div>
+            <a <a href="mailto:rnsebastian701@gmail.com"><img src="https://img.icons8.com/ios-filled/50/000000/gmail.png"/></a>
+            
+            <p>Gmail</p>
+          </div>
+          <div>
+            <a href="https://github.com/symphony701" target="_blank">
+              <img src="https://img.icons8.com/ios-filled/50/000000/github.png"/>
+            </a>
+            <p>GitHub</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.1.0/dist/index.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/letterizejs/lib/letterize.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

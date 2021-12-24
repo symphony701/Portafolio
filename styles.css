@@ -1,0 +1,323 @@
+*{
+  padding: 0 ;
+  margin: 0 ;
+  font-family: 'Nunito', sans-serif;
+}
+
+.principal-container{
+  width: 100vw;
+  background-color: red;
+}
+.hero{
+  background-image: linear-gradient(to right top, #051937, #3d245e, #841d70, #ca0065, #ff173f) !important;
+  height: auto;
+}
+.navbar{
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  padding-top: 1rem !important;
+  display: flex;
+  justify-content: space-between;
+}
+.opciones{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  color:white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.mid-hero{
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  height:100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+}
+.datos{
+  width: 50%;
+}
+
+.mid-hero h1{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1rem;
+}
+.mid-hero h3{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  margin-top: 1rem !important;
+}
+.mid-hero img{
+  max-width: 40rem;
+  max-height: 30rem;
+  border-radius: 50%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about{
+  background-color: white;
+  height: auto;
+  padding: 3rem !important;
+  display: flex;
+  justify-content: space-around;
+}
+.about image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+.image h3{
+  margin-top: 2rem !important;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #051937;
+  font-weight: 600;
+}
+
+.biografia{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  align-items: center;
+}
+.biografia p{
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #051937;
+}
+
+
+.conocimientos{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+}
+.conocimientos h2{
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 700;
+  color: #051937;
+  margin-bottom: 1rem;
+}
+.tecnologias{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 4rem;
+}
+
+.tec{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+.tec p{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.proyectos{
+  padding-top:2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.proyectos h2{
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 700;
+  color: #051937;
+  margin-bottom: 1rem;
+}
+
+.cards-proyectos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 20rem;
+  padding: 2%;
+  background: #051937;
+  color:white;
+  border-radius: 5%;
+  margin: 2rem;
+  height: 23rem;
+}
+
+.card h5{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.card img{
+  width: 100%;
+  height: 10rem;
+  border-radius: 5%;
+}
+
+.info-card p{
+  font-size: auto;
+}
+
+.dropbutton{
+  padding: 10px;
+  background-color: white;
+  border-radius: 40%;
+  display:none;
+}
+
+.dropbutton img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+
+.contact{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+  width: 100%;
+  align-items: center;
+}
+
+
+.redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top:2rem;
+  flex-wrap: wrap;
+}
+
+.contact h2{
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 700;
+  color: #051937;
+  margin-bottom: 1rem;
+}
+.redes div{
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redes div img{
+  width: 50px;
+  height: 50px;
+  
+}
+
+
+@media only screen and (max-width: 950px)  {
+  .mid-hero img{
+    max-width: 30rem;
+    max-height: 20rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .mid-hero{
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+  .opciones{
+    width: 70%;
+  }
+  .datos{
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+  .about{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .biografia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .image{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .opciones{
+    width: 90%;
+  }
+  .mid-hero img{
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+}
+
+@media only screen and (max-width: 450px){
+  .opciones{
+    display: none !important;
+  }
+
+  .dropbutton{
+    display: block;
+  }
+
+  .dropbutton :hover{
+   cursor: pointer; 
+  }
+
+  .mid-hero{
+    padding-top: 0px;
+  }
+}
